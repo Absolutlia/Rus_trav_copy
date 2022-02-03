@@ -1,0 +1,19 @@
+.cover__link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 740px;
+    background-image: url(../../../images/railways.jpg);
+    opacity: 0.3;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2A2C2F;
+        
+}
+
+.cover__link:hover {
+    opacity: 0.8;
+}
