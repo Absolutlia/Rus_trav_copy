@@ -1,8 +1,10 @@
 .cover__title {
+    margin: 0;
+    padding-top: 245px;
+    border:  1px solid red;
     position: relative;
     width: 560px;
     height: 152px;
-    padding: 245px 312px 343px 312px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;

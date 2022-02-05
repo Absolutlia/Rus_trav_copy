@@ -1,4 +1,19 @@
 .places {
+    border: 1px solid blue;
     margin: 0;
-    
+    padding: 92px 148px;
+
+    display: flex;
+    flex-direction: column;
+    width: 984px;
+    height: 3392px;
+
+}
+
+@media screen and @media screen and (max-width: 768px) {
+    .places {}
+}
+
+@media screen and (max-width: 470px) {
+    .places {}
 }

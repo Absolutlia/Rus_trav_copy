@@ -1,15 +1,15 @@
 .photo-grid {
+    border: 1px solid blue;
     margin: 92px 0 0 0;
-    align-items: center;
     /*min-height: calc(100vh - 72px);*/
     width: 1184px;
     height: 671px;
     display: grid;
-    grid-template-columns: repeat(4, minmax(288px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-auto-rows: 100px 1fr;
    /*grid-template-columns: 1fr 1fr minmax(300px, 1fr);*/
     gap: 16px;
-    align-items: stretch;
+    align-self: center;
     
 }

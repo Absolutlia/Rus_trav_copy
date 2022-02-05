@@ -1,10 +1,9 @@
 .lead__title {
+    border: 1px solid red;
     width: 720px;
-    height: 200px;
-    left: 280px;
-    top: 136px;
+    min-height: 200px;
     margin: 0;
-    font-family: Inter;
+    padding-top: 56px;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;

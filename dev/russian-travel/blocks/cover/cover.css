@@ -1,9 +1,6 @@
 .cover {
     margin: 92px auto 0 auto;
-    background-image: url(../../images/railways.jpg);
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
+   
     display: flex;
     width: 1184px;
     min-height: 740px;

@@ -1,0 +1,26 @@
+.place {
+    border: 1px solid blue;
+    min-width: 964px;
+    min-height: 660px;
+    display: grid;
+    gap: 48px 40px;
+    grid-template-columns: 460px 484px;
+    padding: 80px 0;
+
+}
+
+@media screen and (min-width: 1024px) and (max-width 1279px) {
+
+}
+
+@media screen and screen and (min-width: 768px) and (max-width: 1023px) {
+    .place {
+
+    }
+}
+
+@media screen and (max-width: px) {
+    .place { 
+
+    }
+}
