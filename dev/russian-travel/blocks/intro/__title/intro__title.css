@@ -1,12 +1,12 @@
 .intro__title {
     max-width: 790px;
-    min-height: 58px;
     margin: 0;
     padding: 0;
+    font: "Inter";
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    padding-left: 148px;
     margin-bottom: 40px;
     border: 1px solid blue;
+    text-align: left;
 }

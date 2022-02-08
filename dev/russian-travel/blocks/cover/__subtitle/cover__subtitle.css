@@ -1,12 +1,12 @@
 .cover__subtitle {
-    position: relative;
-    width: 360x;
-    height: 66px;
+    position: relative; /* для прозрачности */
+    width: 360px;
     margin: 32px 0 0 0;
     text-align: center;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
+    line-height: 22px;
     color: #ffffff;
     text-decoration: none;
 }

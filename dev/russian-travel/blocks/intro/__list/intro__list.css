@@ -1,5 +1,7 @@
 .intro__list {
     display: flex;
+    margin: 0;
+    padding: 0;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;

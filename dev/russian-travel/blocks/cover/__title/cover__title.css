@@ -1,15 +1,15 @@
 .cover__title {
     margin: 0;
     padding-top: 245px;
-    border:  1px solid red;
-    position: relative;
+    outline:  1px solid red;
+    position: relative; /* для прозрачности */
     width: 560px;
     height: 152px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
+    line-height: 76px;
     text-align: center;
     color: #FFFFFF;
     opacity: 2;
-
 }

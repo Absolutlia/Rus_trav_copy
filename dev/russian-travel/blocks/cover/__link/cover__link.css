@@ -1,20 +1,32 @@
 .cover__link {
-    border:  1px solid red;
+    outline: 1px solid red;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-image: url(../../../images/railways.jpg);
+    background-size: cover;
     position: relative;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
     align-items: center;
-    width: 100%;
+    width: 1184px;
     min-height: 740px;
-    background-image: url(../../../images/railways.jpg);
-    opacity: 0.8;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #2A2C2F;
-        
+    height: 100%;
 }
 
-.cover__link:hover {
+.cover__link:before {
+    content: "";
+    background-color: #2A2C2F;
     opacity: 0.3;
-}
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity 1.5s linear;
+  }
+  
+  .cover__link:hover:before {
+    opacity: 0.8;
+  }
+
