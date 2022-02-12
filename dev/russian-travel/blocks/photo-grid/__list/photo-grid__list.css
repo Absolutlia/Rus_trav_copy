@@ -8,7 +8,7 @@
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
     align-self: center;
-}
+ }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .photo-grid__list {
