@@ -7,7 +7,7 @@
     outline: 0;
     box-sizing: border-box;
 }
-/*
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead {
         width: 928px;
@@ -26,4 +26,4 @@
         min-width: 320px;
         padding: 0;
     }
-} */
+} 
